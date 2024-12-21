@@ -1,13 +1,13 @@
 # Jokes App
 
-A Flutter app that retrieves jokes from an API and saves them locally, ensuring users can access and enjoy jokes effortlessly, even when offline.
+This is a flutter app that retrieves jokes from an API and saves them locally, the app ensuring users can access and enjoy jokes effortlessly, even when offline.
 
 ## Features
 
-- Fetch random jokes from an API.
-- Cache jokes locally for offline access.
-- User-friendly and responsive UI.
-- Handles connectivity issues gracefully.
+- Retrieve random jokes from an API.
+- Store jokes locally to enable offline accessibility.
+- Provide an intuitive and responsive user interface.
+- Effectively manage connectivity challenges.
 
 ## Screenshots
 
@@ -28,7 +28,7 @@ Ensure you have the following installed on your system:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Niweesha543/jokes-fetcher-app.git
+   git clone https://github.com/Niweesha543/jokes-app.git
    cd jokes-app
    ```
 
@@ -97,15 +97,17 @@ Contributions are welcome! Follow these steps to contribute:
 1. Fork the repository.
 2. Create a new branch for your feature/bugfix.
    ```bash
-   git checkout -b feature/your-feature-name
+   git checkout -b feature/Niweesha543
+
    ```
 3. Commit your changes.
    ```bash
-   git commit -m "Add your message here"
+   git commit -m 
    ```
 4. Push your branch.
    ```bash
-   git push origin feature/your-feature-name
+   git push origin feature/Niweesha543
+
    ```
 5. Create a pull request.
 
