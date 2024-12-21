@@ -1,6 +1,6 @@
-# Jokes Fetcher App
+# Jokes App
 
-A Flutter application designed to fetch jokes from an API and store them locally, allowing users to enjoy their favorite jokes seamlessly, even without an internet connection.
+A Flutter app that retrieves jokes from an API and saves them locally, ensuring users can access and enjoy jokes effortlessly, even when offline.
 
 ## Features
 
@@ -27,22 +27,22 @@ Ensure you have the following installed on your system:
 
 1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/yourusername/jokes-fetcher-app.git
-   cd jokes-fetcher-app
-   ```
+   bash
+   git clone https://github.com/Niweesha543/jokes-fetcher-app.git
+   cd jokes-app
+   
 
 2. Install dependencies:
 
-   ```bash
+   bash
    flutter pub get
-   ```
+   
 
 3. Run the application:
 
-   ```bash
+   bash
    flutter run
-   ```
+   
 
 ## Usage
 
@@ -53,9 +53,9 @@ Ensure you have the following installed on your system:
 
 This app follows the MVVM (Model-View-ViewModel) architecture pattern:
 
-- **Model**: Handles the data layer (API fetching and caching).
-- **View**: Displays the jokes and manages user interactions.
-- **ViewModel**: Connects the Model and View, handles business logic.
+- *Model*: Handles the data layer (API fetching and caching).
+- *View*: Displays the jokes and manages user interactions.
+- *ViewModel*: Connects the Model and View, handles business logic.
 
 ## Technologies & Libraries
 
@@ -73,22 +73,22 @@ The app uses the following API to fetch jokes:
 
 ## Project Structure
 
-```plaintext
+plaintext
 lib/
 ├── assets/
-│   ├── app_icon.png        # Application icon
-│   └── loading_icon.png    # Loading indicator
+│   ├── appIcon.png        # App icon
+│   └── loadingIcon.png    # Loading icon
 ├── models/
 │   └── joke.dart           # Joke data model
 ├── screens/
-│   ├── jokes_home_page.dart # Main screen displaying jokes
-│   └── splash_screen.dart  # Splash screen
+│   ├── home_page.dart # Main screen displaying jokes
+│   └── loading_screen.dart  # Loading screen
 ├── services/
-│   └── connectivity_service.dart # Handles network connectivity
+│   └── connectivion_service.dart # Handles network connectivity
 ├── widgets/
-│   └── joke_list_item.dart # Reusable widget for joke items
+│   └── joke_list.dart # Reusable widget for joke items
 └── main.dart               # Entry point of the app
-```
+
 
 ## Contributing
 
@@ -96,22 +96,20 @@ Contributions are welcome! Follow these steps to contribute:
 
 1. Fork the repository.
 2. Create a new branch for your feature/bugfix.
-   ```bash
+   bash
    git checkout -b feature/your-feature-name
-   ```
+   
 3. Commit your changes.
-   ```bash
+   bash
    git commit -m "Add your message here"
-   ```
+   
 4. Push your branch.
-   ```bash
+   bash
    git push origin feature/your-feature-name
-   ```
+   
 5. Create a pull request.
 
 ## Contact
 
-- **Developer**: Niweesha Wijesinghe
-- **Email**: uniweesha@gmail.com
-
-Feel free to reach out for support, feedback, or collaboration!
+- *Developer*: Niweesha Wijesinghe
+- *Email*: uniweesha@gmail.com
